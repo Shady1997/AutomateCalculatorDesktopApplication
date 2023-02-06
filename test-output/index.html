@@ -26,7 +26,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -39,8 +39,8 @@
       <div class="suite">
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
-            <a href="#" panel-name="suite-Default_suite" class="navigator-link">
-              <span class="suite-name border-passed">Default suite</span>
+            <a href="#" panel-name="suite-Calculator" class="navigator-link">
+              <span class="suite-name border-failed">Calculator</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -50,37 +50,37 @@
             <div class="suite-section-content">
               <ul>
                 <li>
-                  <a href="#" panel-name="test-xml-Default_suite" class="navigator-link ">
-                    <span>C:\Users\G525585\AppData\Local\Temp\testng-eclipse-1142146128\testng-customsuite.xml</span>
+                  <a href="#" panel-name="test-xml-Calculator" class="navigator-link ">
+                    <span>C:\Users\G525585\eclipse-workspace\AutomateCalculatorDesktopApp\testng.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="testlist-Default_suite" class="navigator-link ">
+                  <a href="#" panel-name="testlist-Calculator" class="navigator-link ">
                     <span class="test-stats">1 test</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="group-Default_suite" class="navigator-link ">
-                    <span>0 groups</span>
+                  <a href="#" panel-name="group-Calculator" class="navigator-link ">
+                    <span>1 group</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="times-Default_suite" class="navigator-link ">
+                  <a href="#" panel-name="times-Calculator" class="navigator-link ">
                     <span>Times</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="reporter-Default_suite" class="navigator-link ">
+                  <a href="#" panel-name="reporter-Calculator" class="navigator-link ">
                     <span>Reporter output</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="ignored-methods-Default_suite" class="navigator-link ">
+                  <a href="#" panel-name="ignored-methods-Calculator" class="navigator-link ">
                     <span>Ignored methods</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="chronological-Default_suite" class="navigator-link ">
+                  <a href="#" panel-name="chronological-Calculator" class="navigator-link ">
                     <span>Chronological view</span>
                   </a> <!-- navigator-link  -->
                 </li>
@@ -93,46 +93,55 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">6 methods,   6 passed</span>
+                    <span class="method-stats">6 methods, 1 failed,   5 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Calculator" class="hide-methods failed suite-Calculator"> (hide)</a> <!-- hide-methods failed suite-Calculator -->
+                      <a href="#" panel-name="suite-Calculator" class="show-methods failed suite-Calculator"> (show)</a> <!-- show-methods failed suite-Calculator -->
+                    </span>
+                    <div class="method-list-content failed suite-Calculator">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Calculator" title="test_cases.Operations" class="method navigator-link" hash-for-method="Combination">Combination</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Calculator -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
                     <span class="show-or-hide-methods passed">
-                      <a href="#" panel-name="suite-Default_suite" class="hide-methods passed suite-Default_suite"> (hide)</a> <!-- hide-methods passed suite-Default_suite -->
-                      <a href="#" panel-name="suite-Default_suite" class="show-methods passed suite-Default_suite"> (show)</a> <!-- show-methods passed suite-Default_suite -->
+                      <a href="#" panel-name="suite-Calculator" class="hide-methods passed suite-Calculator"> (hide)</a> <!-- hide-methods passed suite-Calculator -->
+                      <a href="#" panel-name="suite-Calculator" class="show-methods passed suite-Calculator"> (show)</a> <!-- show-methods passed suite-Calculator -->
                     </span>
-                    <div class="method-list-content passed suite-Default_suite">
+                    <div class="method-list-content passed suite-Calculator">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="testCalculator.CalculatorTest" class="method navigator-link" hash-for-method="Addition">Addition</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Calculator" title="test_cases.Operations" class="method navigator-link" hash-for-method="Addition">Addition</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="testCalculator.CalculatorTest" class="method navigator-link" hash-for-method="Clear">Clear</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Calculator" title="test_cases.Operations" class="method navigator-link" hash-for-method="Clear">Clear</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="testCalculator.CalculatorTest" class="method navigator-link" hash-for-method="Combination">Combination</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Calculator" title="test_cases.Operations" class="method navigator-link" hash-for-method="Division">Division</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="testCalculator.CalculatorTest" class="method navigator-link" hash-for-method="Division">Division</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Calculator" title="test_cases.Operations" class="method navigator-link" hash-for-method="Multiplication">Multiplication</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="testCalculator.CalculatorTest" class="method navigator-link" hash-for-method="Multiplication">Multiplication</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Calculator" title="test_cases.Operations" class="method navigator-link" hash-for-method="Subtraction">Subtraction</a> <!-- method navigator-link -->
                       </span>
                       <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="testCalculator.CalculatorTest" class="method navigator-link" hash-for-method="Subtraction">Subtraction</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                    </div> <!-- method-list-content passed suite-Default_suite -->
+                    </div> <!-- method-list-content passed suite-Calculator -->
                   </li>
                 </ul>
               </div> <!-- suite-section-content -->
@@ -143,11 +152,33 @@
     </div> <!-- navigator-root -->
     <div class="wrapper">
       <div class="main-panel-root">
-        <div panel-name="suite-Default_suite" class="panel Default_suite">
-          <div class="suite-Default_suite-class-passed">
+        <div panel-name="suite-Calculator" class="panel Calculator">
+          <div class="suite-Calculator-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">test_cases.Operations</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Combination">
+                  </a> <!-- Combination -->
+                  <span class="method-name">Combination</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [7.875] but found [8]
+	at test_cases.Operations.Combination(Operations.java:34)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 33 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Check Combination Operation)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Calculator-class-failed -->
+          <div class="suite-Calculator-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">testCalculator.CalculatorTest</span>
+              <span class="class-name">test_cases.Operations</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
@@ -155,6 +186,8 @@
                   <a name="Addition">
                   </a> <!-- Addition -->
                   <span class="method-name">Addition</span>
+                  <em>
+(Check Addition Operation)                  </em>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -162,13 +195,8 @@
                   <a name="Clear">
                   </a> <!-- Clear -->
                   <span class="method-name">Clear</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="Combination">
-                  </a> <!-- Combination -->
-                  <span class="method-name">Combination</span>
+                  <em>
+(Clear any data on screen)                  </em>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -176,6 +204,8 @@
                   <a name="Division">
                   </a> <!-- Division -->
                   <span class="method-name">Division</span>
+                  <em>
+(Check Division Operation)                  </em>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -183,6 +213,8 @@
                   <a name="Multiplication">
                   </a> <!-- Multiplication -->
                   <span class="method-name">Multiplication</span>
+                  <em>
+(Check Multiplication Operation)                  </em>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -190,57 +222,87 @@
                   <a name="Subtraction">
                   </a> <!-- Subtraction -->
                   <span class="method-name">Subtraction</span>
+                  <em>
+(Check Subtraction Operation)                  </em>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Default_suite-class-passed -->
-        </div> <!-- panel Default_suite -->
-        <div panel-name="test-xml-Default_suite" class="panel">
+          </div> <!-- suite-Calculator-class-passed -->
+        </div> <!-- panel Calculator -->
+        <div panel-name="test-xml-Calculator" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\G525585\AppData\Local\Temp\testng-eclipse-1142146128\testng-customsuite.xml</span>
+            <span class="header-content">C:\Users\G525585\eclipse-workspace\AutomateCalculatorDesktopApp\testng.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
-&lt;suite name=&quot;Default suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
-  &lt;test thread-count=&quot;5&quot; name=&quot;Default test&quot; verbose=&quot;2&quot;&gt;
+&lt;suite name=&quot;Calculator&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Check Main Operations in Calculator Desktop App&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;testCalculator.CalculatorTest&quot;/&gt;
+      &lt;class name=&quot;test_cases.Operations&quot;/&gt;
     &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- Default test --&gt;
-&lt;/suite&gt; &lt;!-- Default suite --&gt;
+  &lt;/test&gt; &lt;!-- Check Main Operations in Calculator Desktop App --&gt;
+&lt;/suite&gt; &lt;!-- Calculator --&gt;
             </pre>
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="testlist-Default_suite" class="panel">
+        <div panel-name="testlist-Calculator" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Tests for Default suite</span>
+            <span class="header-content">Tests for Calculator</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Default test (1 class)</span>
+                <span class="test-name">Check Main Operations in Calculator Desktop App (1 class)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="group-Default_suite" class="panel">
+        <div panel-name="group-Calculator" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Groups for Default suite</span>
+            <span class="header-content">Groups for Calculator</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">smoke</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">Addition</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">Clear</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">Combination</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">Division</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">Multiplication</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">Subtraction</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="times-Default_suite" class="panel">
+        <div panel-name="times-Calculator" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Times for Default suite</span>
+            <span class="header-content">Times for Calculator</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="times-div">
               <script type="text/javascript">
-suiteTableInitFunctions.push('tableData_Default_suite');
-function tableData_Default_suite() {
+suiteTableInitFunctions.push('tableData_Calculator');
+function tableData_Calculator() {
 var data = new google.visualization.DataTable();
 data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
@@ -249,91 +311,93 @@ data.addColumn('number', 'Time (ms)');
 data.addRows(6);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'Combination')
-data.setCell(0, 2, 'testCalculator.CalculatorTest')
-data.setCell(0, 3, 3959);
+data.setCell(0, 2, 'test_cases.Operations')
+data.setCell(0, 3, 5913);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'Division')
-data.setCell(1, 2, 'testCalculator.CalculatorTest')
-data.setCell(1, 3, 3758);
+data.setCell(1, 2, 'test_cases.Operations')
+data.setCell(1, 3, 5178);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'Addition')
-data.setCell(2, 2, 'testCalculator.CalculatorTest')
-data.setCell(2, 3, 2008);
+data.setCell(2, 2, 'test_cases.Operations')
+data.setCell(2, 3, 2838);
 data.setCell(3, 0, 3)
 data.setCell(3, 1, 'Multiplication')
-data.setCell(3, 2, 'testCalculator.CalculatorTest')
-data.setCell(3, 3, 1844);
+data.setCell(3, 2, 'test_cases.Operations')
+data.setCell(3, 3, 2720);
 data.setCell(4, 0, 4)
 data.setCell(4, 1, 'Subtraction')
-data.setCell(4, 2, 'testCalculator.CalculatorTest')
-data.setCell(4, 3, 1827);
+data.setCell(4, 2, 'test_cases.Operations')
+data.setCell(4, 3, 2691);
 data.setCell(5, 0, 5)
 data.setCell(5, 1, 'Clear')
-data.setCell(5, 2, 'testCalculator.CalculatorTest')
-data.setCell(5, 3, 494);
-window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
+data.setCell(5, 2, 'test_cases.Operations')
+data.setCell(5, 3, 951);
+window.suiteTableData['Calculator']= { tableData: data, tableDiv: 'times-div-Calculator'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 13 seconds</span>
-              <div id="times-div-Default_suite">
-              </div> <!-- times-div-Default_suite -->
+              <span class="suite-total-time">Total running time: 20 seconds</span>
+              <div id="times-div-Calculator">
+              </div> <!-- times-div-Calculator -->
             </div> <!-- times-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="reporter-Default_suite" class="panel">
+        <div panel-name="reporter-Calculator" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Reporter output for Default suite</span>
+            <span class="header-content">Reporter output for Calculator</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="ignored-methods-Default_suite" class="panel">
+        <div panel-name="ignored-methods-Calculator" class="panel">
           <div class="main-panel-header rounded-window-top">
             <span class="header-content">0 ignored methods</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="chronological-Default_suite" class="panel">
+        <div panel-name="chronological-Calculator" class="panel">
           <div class="main-panel-header rounded-window-top">
             <span class="header-content">Methods in chronological order</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">testCalculator.CalculatorTest</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">test_cases.Operations</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">setup</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
-                <span class="method-name">Addition</span>
-                <span class="method-start">4673 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
                 <span class="method-name">Clear</span>
-                <span class="method-start">6684 ms</span>
+                <span class="method-start">3278 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
+                <span class="method-name">Addition</span>
+                <span class="method-start">4241 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">Combination</span>
-                <span class="method-start">7179 ms</span>
+                <span class="method-start">7083 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">Division</span>
-                <span class="method-start">11139 ms</span>
+                <span class="method-start">13010 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">Multiplication</span>
-                <span class="method-start">14898 ms</span>
+                <span class="method-start">18195 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">Subtraction</span>
-                <span class="method-start">16743 ms</span>
+                <span class="method-start">20917 ms</span>
               </div> <!-- test-method -->
-              <div class="configuration-class after">
+              <div class="configuration-test after">
                 <span class="method-name">TearDown</span>
-                <span class="method-start">18571 ms</span>
-              </div> <!-- configuration-class after -->
+                <span class="method-start">23612 ms</span>
+              </div> <!-- configuration-test after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->

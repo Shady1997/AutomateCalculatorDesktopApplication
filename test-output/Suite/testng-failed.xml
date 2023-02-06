@@ -5,13 +5,8 @@
     <classes>
       <class name="testCalculator.CalculatorTest">
         <methods>
-          <include name="Clear"/>
-          <include name="Multiplication"/>
-          <include name="Division"/>
           <include name="setup"/>
-          <include name="Combination"/>
           <include name="TearDown"/>
-          <include name="Subtraction"/>
           <include name="Addition"/>
         </methods>
       </class> <!-- testCalculator.CalculatorTest -->

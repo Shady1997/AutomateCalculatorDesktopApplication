@@ -3,7 +3,7 @@ package testCalculator;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.testng.Assert;
-import org.testng.annotations.AfterClass;
+import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
@@ -13,6 +13,7 @@ import io.appium.java_client.windows.WindowsDriver;
 
 public class CalculatorTest {
 
+	
 	public  WindowsDriver<WebElement> CalculatorSession = null;
 	public  WebElement CalculatorResult = null;
 	public DesiredCapabilities capabilities;
@@ -44,7 +45,7 @@ public class CalculatorTest {
 		Assert.assertEquals("0", _GetCalculatorResultText());
 	}
 
-	@AfterClass
+	@AfterTest
 	public void TearDown() {
 		CalculatorResult = null;
 		if (CalculatorSession != null) {
@@ -109,5 +110,4 @@ public class CalculatorTest {
 		// trim extra text and whitespace off of the display value
 		return CalculatorResult.getText().replace("Display is ", "").trim();
 	}
-
 }
